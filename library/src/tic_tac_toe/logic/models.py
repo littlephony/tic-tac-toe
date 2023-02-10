@@ -102,7 +102,7 @@ class GameState:
     def possible_moves(self) -> list[Move]:
         moves = []
         if not self.game_over:
-            for match in re.finditer(r'\s', self.cells):
+            for match in re.finditer(r'\s', self.grid.cells):
                 moves.append(self.make_move_to(match.start()))
         return moves
     
