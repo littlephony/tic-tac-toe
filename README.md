@@ -1,0 +1,1 @@
+This project follows [the tutorial](https://realpython.com/tic-tac-toe-ai-python/#step-3-build-a-game-front-end-for-the-console) from Real Python.
