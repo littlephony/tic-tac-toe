@@ -1,7 +1,6 @@
 # tic_tac_toe/logic/minimax.py
 
 from functools import partial
-
 from tic_tac_toe.logic.models import GameState, Mark, Move
 
 def find_best_move(game_state: GameState) -> Move | None:
